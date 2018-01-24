@@ -2,11 +2,11 @@
 
 ## 入门
 
-* [介绍](Introduction.md)
+* [介绍](introduction.md)
 
 ## 方法
 
-* Execute
+* [Execute](methods-execute.md)
 * Query
 * QueryFirst
 * QueryFirstOrDefault
