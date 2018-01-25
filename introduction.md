@@ -29,7 +29,7 @@ Dapper可以与任何数据库提供者一起工作，因为没有数据库特�
 Dapper会用以下几个方法扩展您的`IDbConnection`接口：
 
 * [Execute](methods-execute.md)
-* [Query](#)
+* [Query](methods-query.md)
 * [QueryFirst](#)
 * [QueryFirstOrDefault](#)
 * [QuerySingle](#)

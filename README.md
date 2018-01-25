@@ -7,7 +7,7 @@
 ## 方法
 
 * [Execute](methods-execute.md)
-* Query
+* [Query](methods-query.md)
 * QueryFirst
 * QueryFirstOrDefault
 * QuerySingle
