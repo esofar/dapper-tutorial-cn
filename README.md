@@ -11,7 +11,7 @@
 * [QueryFirst](methods-query-first.md)
 * [QueryFirstOrDefault](methods-query-first-or-default.md)
 * [QuerySingle](methods-query-single.md)
-* QuerySingleOrDefault
+* [QuerySingleOrDefault](methods-query-single-or-default.md)
 * QueryMultiple
 
 ## 参数
