@@ -9,7 +9,7 @@
 * [Execute](methods-execute.md)
 * [Query](methods-query.md)
 * [QueryFirst](methods-query-first.md)
-* QueryFirstOrDefault
+* [QueryFirstOrDefault](methods-query-first-or-default.md)
 * QuerySingle
 * QuerySingleOrDefault
 * QueryMultiple
