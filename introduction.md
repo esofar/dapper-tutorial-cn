@@ -32,7 +32,7 @@ Dapper会用以下几个方法扩展您的`IDbConnection`接口：
 * [Query](methods-query.md)
 * [QueryFirst](methods-query-first.md)
 * [QueryFirstOrDefault](methods-query-first-or-default.md)
-* [QuerySingle](#)
+* [QuerySingle](methods-query-single.md)
 * [QuerySingleOrDefault](#)
 * [QueryMultiple](#)
 
