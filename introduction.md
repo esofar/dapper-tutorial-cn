@@ -34,7 +34,7 @@ Dapper会用以下几个方法扩展您的`IDbConnection`接口：
 * [QueryFirstOrDefault](methods-query-first-or-default.md)
 * [QuerySingle](methods-query-single.md)
 * [QuerySingleOrDefault](methods-query-single-or-default.md)
-* [QueryMultiple](#)
+* [QueryMultiple](methods-query-multiple.md)
 
 ```
 string sqlInvoices = "SELECT * FROM Invoice;";
