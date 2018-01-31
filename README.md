@@ -1,8 +1,10 @@
 # Dapper
 
+本篇文章翻译自：http://dapper-tutorial.net/dapper
+
 ## 什么是Dapper
 
-Dapper是一个简单的.NET对象映射器，在速度方面具有"**King of Micro ORM**"的头衔，几乎与使用原始的ADO.NET数据读取器一样快。ORM是一个对象关系映射器，它负责数据库和编程语言之间的映射。
+[Dapper](https://github.com/StackExchange/Dapper)是一个简单的.NET对象映射器，在速度方面具有"**King of Micro ORM**"的头衔，几乎与使用原始的ADO.NET数据读取器一样快。ORM是一个对象关系映射器，它负责数据库和编程语言之间的映射。
 
 Dapper通过扩展`IDbConnection`提供一些有用的扩展方法去查询您的数据库。
 
