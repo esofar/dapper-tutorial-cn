@@ -58,10 +58,10 @@ using (var connection = My.ConnectionFactory())
 
 执行和查询方法可以用以下几种不同的方式使用参数：
 
-* [Anonymous](parameter/anonymous.md)
-* [Dynamic](parameter/dynamic.md)
-* [List](parameter/list.md)
-* [String](parameter/string.md)
+* [匿名类型](parameter/anonymous.md) 
+* [动态类型](parameter/dynamic.md) 
+* [列表类型](parameter/list.md) 
+* [字符串类型](parameter/string.md)
 
 ```
 // Anonymous

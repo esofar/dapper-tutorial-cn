@@ -12,10 +12,10 @@
 	- [QueryMultiple](methods/query-multiple.md)
 
 * 参数
-	- [Anonymous](parameter/anonymous.md) 
-	- [Dynamic](parameter/dynamic.md) 
-	- [List](parameter/list.md) 
-	- [String](parameter/string.md)
+	- [匿名类型](parameter/anonymous.md) 
+	- [动态类型](parameter/dynamic.md) 
+	- [列表类型](parameter/list.md) 
+	- [字符串类型](parameter/string.md)
 
 * 结果
 	- [Anonymous](result/README.md)
