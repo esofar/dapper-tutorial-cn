@@ -12,20 +12,20 @@
 	- [QueryMultiple](methods/query-multiple.md)
 
 * 参数
-	- [Anonymous](#) 
-	- [Dynamic](#) 
-	- [List](#) 
-	- [String](#)
+	- [Anonymous](parameter/README.md) 
+	- [Dynamic](parameter/README.md) 
+	- [List](parameter/README.md) 
+	- [String](parameter/README.md)
 
 * 结果
-	- [Anonymous](#)
-	- [Strongly Typed](#)
-	- [Multi-Mapping](#)
-	- [Multi-Result](#)
-	- [Multi-Type](#)
+	- [Anonymous](result/README.md)
+	- [Strongly Typed](result/README.md)
+	- [Multi-Mapping](result/README.md)
+	- [Multi-Result](result/README.md)
+	- [Multi-Type](result/README.md)
 
 * 工具
-	- [Async](#) 
-	- [Buffered](#) 
-	- [Transaction](#)
-	- [Stored Procedure](#) 
+	- [Async](utilities/README.md) 
+	- [Buffered](utilities/README.md) 
+	- [Transaction](utilities/README.md)
+	- [Stored Procedure](utilities/README.md) 
