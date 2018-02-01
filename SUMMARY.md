@@ -18,7 +18,7 @@
 	- [字符串类型](parameter/string.md)
 
 * 结果
-	- [Anonymous](result/README.md)
+	- [匿名类型](result/anonymous.md)
 	- [Strongly Typed](result/README.md)
 	- [Multi-Mapping](result/README.md)
 	- [Multi-Result](result/README.md)
