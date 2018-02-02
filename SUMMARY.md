@@ -1,31 +1,28 @@
-# Dapper - API
+# Summary
 
 * [介绍](README.md)
-
-* 方法
-	- [Execute](methods/execute.md)
-	- [Query](methods/query.md)
-	- [QueryFirst](methods/query-first.md)
-	- [QueryFirstOrDefault](methods/query-first-or-default.md)
-	- [QuerySingle](methods/query-single.md)
-	- [QuerySingleOrDefault](methods/query-single-or-default.md)
-	- [QueryMultiple](methods/query-multiple.md)
-
+* [方法](fang-fa.md)
+  * [Execute](methods/execute.md)
+  * [Query](methods/query.md)
+  * [QueryFirst](methods/query-first.md)
+  * [QueryFirstOrDefault](methods/query-first-or-default.md)
+  * [QuerySingle](methods/query-single.md)
+  * [QuerySingleOrDefault](methods/query-single-or-default.md)
+  * [QueryMultiple](methods/query-multiple.md)
 * 参数
-	- [匿名类型](parameter/anonymous.md) 
-	- [动态类型](parameter/dynamic.md) 
-	- [列表类型](parameter/list.md) 
-	- [字符串类型](parameter/string.md)
-
+  * [匿名类型](parameter/anonymous.md)
+  * [动态类型](parameter/dynamic.md)
+  * [列表类型](parameter/list.md)
+  * [字符串类型](parameter/string.md)
 * 结果
-	- [匿名类型](result/anonymous.md)
-	- [Strongly Typed](result/README.md)
-	- [Multi-Mapping](result/README.md)
-	- [Multi-Result](result/README.md)
-	- [Multi-Type](result/README.md)
+  * [匿名类型](result/anonymous.md)
+  * [Strongly Typed](result/README.md)
+  * [Multi-Mapping](result/README.md)
+  * [Multi-Result](result/README.md)
+  * [Multi-Type](result/README.md)
+* [工具](gong-ju.md)
+  * [Async](utilities/README.md)
+  * [Buffered](utilities/README.md)
+  * [Transaction](utilities/README.md)
+  * [Stored Procedure](utilities/README.md)
 
-* 工具
-	- [Async](utilities/README.md) 
-	- [Buffered](utilities/README.md) 
-	- [Transaction](utilities/README.md)
-	- [Stored Procedure](utilities/README.md) 

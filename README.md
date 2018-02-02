@@ -1,6 +1,6 @@
 # Dapper
 
-本篇文章翻译自：http://dapper-tutorial.net/dapper
+> 原文：[Dapper Tutorial](http://dapper-tutorial.net/) ，译者：[Esofar](https://github.com/esofar "Github")
 
 ## 什么是Dapper
 
@@ -11,6 +11,7 @@ Dapper通过扩展`IDbConnection`提供一些有用的扩展方法去查询您�
 ## Dapper是如何工作的
 
 它可以分为三个步骤：
+
 * 创建一个`IDbConnection`接口对象；
 * 编写一个查询SQL来执行CRUD操作；
 * 将查询SQL作为`Execute`方法的参数传递。
@@ -22,6 +23,7 @@ Dapper通过NuGet安装：[https://www.nuget.org/packages/Dapper](https://www.nu
 ```
 PM> Install-Package Dapper
 ```
+
 ## 要求
 
 Dapper可以与任何数据库提供者一起工作，因为没有数据库特定的实现。
@@ -46,11 +48,11 @@ string sp = "EXEC Invoice_Insert";
 using (var connection = My.ConnectionFactory())
 {
         // 执行普通SQL
-	var invoices = connection.Query<Invoice>(sqlInvoices).ToList();
-	// 执行带参数的SQL
-	var invoice = connection.QueryFirstOrDefault(sqlInvoice, new {InvoiceID = 1});
-	// 执行存储过程 
-	var affectedRows = connection.Execute(sp, new { Param1 = "Single_Insert_1" }, commandType: CommandType.StoredProcedure);
+    var invoices = connection.Query<Invoice>(sqlInvoices).ToList();
+    // 执行带参数的SQL
+    var invoice = connection.QueryFirstOrDefault(sqlInvoice, new {InvoiceID = 1});
+    // 执行存储过程 
+    var affectedRows = connection.Execute(sp, new { Param1 = "Single_Insert_1" }, commandType: CommandType.StoredProcedure);
 }
 ```
 
@@ -77,8 +79,8 @@ parameter.Add("@Code", "Many_Insert_0", DbType.String, ParameterDirection.Input)
 parameter.Add("@RowCount", dbType: DbType.Int32, direction: ParameterDirection.ReturnValue);
 
 connection.Execute(sql,
-	new {Kind = InvoiceKind.WebInvoice, Code = "Single_Insert_1"},
-	commandType: CommandType.StoredProcedure);
+    new {Kind = InvoiceKind.WebInvoice, Code = "Single_Insert_1"},
+    commandType: CommandType.StoredProcedure);
 
 // List
 connection.Query<Invoice>(sql, new {Kind = new[] {InvoiceKind.StoreInvoice, InvoiceKind.WebInvoice}}).ToList();
@@ -126,16 +128,19 @@ connection.Query<Invoice>(sql, buffered: false)
 // Transaction
 using (var transaction = connection.BeginTransaction())
 {
-	var affectedRows = connection.Execute(sql,
-		new {Kind = InvoiceKind.WebInvoice, Code = "Single_Insert_1"},
-		commandType: CommandType.StoredProcedure,
-		transaction: transaction);
+    var affectedRows = connection.Execute(sql,
+        new {Kind = InvoiceKind.WebInvoice, Code = "Single_Insert_1"},
+        commandType: CommandType.StoredProcedure,
+        transaction: transaction);
 
-	transaction.Commit();
+    transaction.Commit();
 }
 
 // Stored Procedure
 var affectedRows = connection.Execute(sql,
-	new {Kind = InvoiceKind.WebInvoice, Code = "Single_Insert_1"},
-	commandType: CommandType.StoredProcedure);
+    new {Kind = InvoiceKind.WebInvoice, Code = "Single_Insert_1"},
+    commandType: CommandType.StoredProcedure);
 ```
+
+
+
