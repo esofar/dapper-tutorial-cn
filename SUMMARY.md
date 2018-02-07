@@ -1,7 +1,7 @@
 # Summary
 
 * [介绍](README.md)
-* [方法](fang-fa.md)
+* 方法
   * [Execute](methods/execute.md)
   * [Query](methods/query.md)
   * [QueryFirst](methods/query-first.md)
@@ -16,13 +16,14 @@
   * [字符串类型](parameter/string.md)
 * 结果
   * [匿名类型](result/anonymous.md)
-  * [Strongly Typed](result/README.md)
+  * [强类型](result/strongly-typed.md)
   * [Multi-Mapping](result/README.md)
   * [Multi-Result](result/README.md)
   * [Multi-Type](result/README.md)
-* [工具](gong-ju.md)
+* 工具
   * [Async](utilities/README.md)
   * [Buffered](utilities/README.md)
   * [Transaction](utilities/README.md)
   * [Stored Procedure](utilities/README.md)
+
 

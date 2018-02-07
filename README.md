@@ -94,7 +94,7 @@ connection.Query<Invoice>(sql, new {Code = new DbString {Value = "Invoice_1", Is
 查询方法返回的结果可以映射到以下几种类型：
 
 * [匿名类型](result/anonymous.md)
-* [Strongly Typed](#)
+* [强类型](result/strongly-typed.md)
 * [Multi-Mapping](#)
 * [Multi-Result](#)
 * [Multi-Type](#)
