@@ -17,9 +17,9 @@
 * 结果
   * [匿名类型](result/anonymous.md)
   * [强类型](result/strongly-typed.md)
-  * [Multi-Mapping](result/README.md)
-  * [Multi-Result](result/README.md)
-  * [Multi-Type](result/README.md)
+  * [多映射](result/multi-mapping.md)
+  * [多结果](result/multi-result.md)
+  * [多类型](result/multi-type.md)
 * 工具
   * [Async](utilities/README.md)
   * [Buffered](utilities/README.md)
