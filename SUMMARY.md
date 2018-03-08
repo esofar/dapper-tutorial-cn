@@ -21,9 +21,9 @@
   * [多结果](result/multi-result.md)
   * [多类型](result/multi-type.md)
 * 工具
-  * [Async](utilities/README.md)
-  * [Buffered](utilities/README.md)
-  * [Transaction](utilities/README.md)
-  * [Stored Procedure](utilities/README.md)
+  * [异步](utilities/async.md)
+  * [缓冲](utilities/buffered.md)
+  * [事务](utilities/transaction.md)
+  * [存储过程](utilities/stored-procedure.md)
 
 

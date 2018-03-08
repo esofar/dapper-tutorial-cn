@@ -113,10 +113,10 @@ using (var connection = My.ConnectionFactory())
 
 ## 工具
 
-* [Async](#) 
-* [Buffered](#) 
-* [Transaction](#)
-* [Stored Procedure](#) 
+* [异步](utilities/async.md)
+* [缓冲](utilities/buffered.md)
+* [事务](utilities/transaction.md)
+* [存储过程](utilities/stored-procedure.md)
 
 ```
 // Async
